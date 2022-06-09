@@ -10,6 +10,8 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
+    <script src="https://kit.fontawesome.com/082459f995.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
@@ -39,15 +41,27 @@
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a href="#learn" class="nav-link">What You'll Learn</a>
+              <a href="#learn" class="nav-link">about</a>
             </li>
             <li class="nav-item">
-              <a href="#questions" class="nav-link">Questions</a>
+              <a href="#questions" class="nav-link">services</a>
             </li>
             <li class="nav-item">
-              <a href="#instructors" class="nav-link">Instructors</a>
+              <a href="#instructors" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link">faq's</a>
+            </li>
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link">Blog</a>
             </li>
           </ul>
+        
+          <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+            </a>
+          
+        
         </div>
       </div>
     </nav>
@@ -59,17 +73,28 @@
       <div class="container">
         <div class="d-sm-flex align-items-center justify-content-between">
           <div>
-            <h1>Become a <span class="text-warning"> Web Developer </span></h1>
-            <p class="lead my-4">
-              We focus on teaching our students the fundamentals of the latest
-              and greatest technologies to prepare them for their first dev role
+            <h1> WE BELIEVE OUR CLIENTS PAY FOR  <span id="purple"> SOLUTION, NOT SESSION ! </span></h1>
+            <p>
+              <ul>
+                <li>
+                  Tired of medication that has high side effects ? 
+                </li>
+                <li>
+                  Your condition is now affecting your career and personal life?
+                </li>
+                <li>
+                         
+              Your problem has completely changed you into a different person?
+                </li>
+              </ul>   
             </p>
             <button
-              class="btn btn-primary btn-lg"
+              class="btn btn-light"
               data-bs-toggle="modal"
               data-bs-target="#enroll"
+              id = "purple-btn"    
             >
-              Start The Enrollment
+              Book an appointment
             </button>
           </div>
           <img
@@ -82,12 +107,36 @@
     </section>
 
     <!-- Newsletter -->
-    <section class="bg-primary text-light p-5">
+    <section class="bg-light text-dark p-5">
       <div class="container">
         <div class="d-md-flex justify-content-between align-items-center">
-          <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+          <div class="w-50" px-5>
+          <ul>
+            <h4 class="mb-0 mb-md-0">Meet our top experienced psychologist</h4>
+            <h4 class="mb-0 mb-md-0">online: shritica joshi</h4>
+            <p>( Chief Psychologist, Alphamind's Academy) </p>
+            <p>
+              She has worked in corporates, school, clinics and starts up. Although Shritica works
+              with all type of concerns, she has mastery in depression, anxiety, stress, grief, 
+              overthinking and relationships issues. As an exemplary professional, she drives the
+              best out of her clients with a solution focused approach.  
+            </p>
+            <p>
+              If you want to know whether we could be a good fit for each other.
+            </p>
+            <button
+              class="btn btn-light"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+              id = "purple-btn"    
+            >
+            BOOK A FREE APPOINTMENT
+            </button>
 
-          <div class="input-group news-input">
+          </ul>
+        </div>
+          
+          <div class="input-group news-input ps-5">
             <input type="text" class="form-control" placeholder="Enter Email" />
             <button class="btn btn-dark btn-lg" type="button">Submit</button>
           </div>
@@ -97,102 +146,134 @@
 
     <!-- Boxes -->
     <section class="p-5">
-      <div class="container">
+      <div class="container920">
+        <h2 class="center-text"> what we offer</h2>
         <div class="row text-center g-4">
-          <div class="col-md">
-            <div class="card bg-dark text-light">
-              <div class="card-body text-center">
+          <div class="col-sm">
+            <div class="card text-dark rounded12">
+              <div class="card-body text-center ">
                 <div class="h1 mb-3">
-                  <i class="bi bi-laptop"></i>
+                  <i class="bi bi-laptop purple"></i>
                 </div>
-                <h3 class="card-title mb-3">Virtual</h3>
+                <h5 class="card-title mb-3">Premium Counselling Services.</h5>
                 <p class="card-text">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Iure, quas quidem possimus dolorum esse eligendi?
                 </p>
-                <a href="#" class="btn btn-primary">Read More</a>
+               
               </div>
             </div>
           </div>
           <div class="col-md">
-            <div class="card bg-secondary text-light">
+            <div class="card text-dark rounded12">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
-                  <i class="bi bi-person-square"></i>
+                  <i class="bi bi-person-square purple"></i>
                 </div>
-                <h3 class="card-title mb-3">Hybrid</h3>
+                <h5 class="card-title mb-3">Progress guaranteed else FULL Refund</h5>
                 <p class="card-text">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Iure, quas quidem possimus dolorum esse eligendi?
                 </p>
-                <a href="#" class="btn btn-dark">Read More</a>
+              
               </div>
             </div>
           </div>
           <div class="col-md">
-            <div class="card bg-dark text-light">
+            <div class="card text-dark rounded12">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
-                  <i class="bi bi-people"></i>
+                  <i class="bi bi-people purple"></i>
                 </div>
-                <h3 class="card-title mb-3">In Person</h3>
+                <h5 class="card-title mb-3">Lifetime Validity</h5>
                 <p class="card-text">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Iure, quas quidem possimus dolorum esse eligendi?
                 </p>
-                <a href="#" class="btn btn-primary">Read More</a>
+               
               </div>
             </div>
           </div>
         </div>
+        <div class="container620">
+        <div class="row text-center g-4">
+          <div class="col-sm">
+            <div class="card text-dark rounded12">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-laptop purple "></i>
+                </div>
+                <h5 class="card-title mb-3">Solution Focused package</h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Iure, quas quidem possimus dolorum esse eligendi?
+                </p>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card text-dark rounded12">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person-square purple"></i>
+                </div>
+                <h5 class="card-title mb-3">Unlimited Session Duration</h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Iure, quas quidem possimus dolorum esse eligendi?
+                </p>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
     <!-- Learn Sections -->
-    <section id="learn" class="p-5">
-      <div class="container">
-        <div class="row align-items-center justify-content-between">
-          <div class="col-md">
-            <img src="img/fundamentals.svg" class="img-fluid" alt="" />
-          </div>
-          <div class="col-md p-5">
-            <h2>Learn The Fundamentals</h2>
-            <p class="lead">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Similique deleniti possimus magnam corporis ratione facere!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
-              reiciendis eius autem eveniet mollitia, at asperiores suscipit
-              quae similique laboriosam iste minus placeat odit velit quos,
-              nulla architecto amet voluptates?
-            </p>
-            <a href="#" class="btn btn-light mt-3">
-              <i class="bi bi-chevron-right"></i> Read More
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <section id="learn" class="p-5 bg-dark text-light">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md p-5">
-            <h2>Learn React</h2>
-            <p class="lead">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Similique deleniti possimus magnam corporis ratione facere!
+            <h3>Here’s to her success stories!!</h3>
+            <p>
+              <ul>
+                <li>
+                  3000+ Intense clients successfully treated 
+                </li>
+                <li>
+                  4+ years Experience working with Adults and Adolescents
+                </li>
+                <li>
+                  100% Satisfaction guaranteed 
+                </li>
+                <li>
+                  2678 clients reported 20 % progress in 2 sessions
+                </li>
+                <li>
+                  1000 clients reported 30 % progress in 2 sessions
+                </li>
+                <li>
+                  455 Clients reported 70% Progress in as less as 3 sessions
+                </li>
+              </ul>             
             </p>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
-              reiciendis eius autem eveniet mollitia, at asperiores suscipit
-              quae similique laboriosam iste minus placeat odit velit quos,
-              nulla architecto amet voluptates?
+              If you want to see how I will help you in getting this progress
             </p>
-            <a href="#" class="btn btn-light mt-3">
-              <i class="bi bi-chevron-right"></i> Read More
-            </a>
+            <button
+            class="btn btn-light"
+            data-bs-toggle="modal"
+            data-bs-target="#enroll"
+            id = "purple-btn"    
+            >
+            Book an appointment
+            </button>
+            
+            
           </div>
           <div class="col-md">
             <img src="img/react.svg" class="img-fluid" alt="" />
@@ -205,17 +286,17 @@
     <section id="questions" class="p-5">
       <div class="container">
         <h2 class="text-center mb-4">Frequently Asked Questions</h2>
-        <div class="accordion accordion-flush" id="questions">
+        <div class="accordion accordion" id="questions">
           <!-- Item 1 -->
-          <div class="accordion-item">
+          <div class="accordion-item ">
             <h2 class="accordion-header">
-              <button
+                <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#question-one"
-              >
-                Where exactly are you located?
+                data-bs-target="#question-one">
+                <i class="fa-solid fa-circle-question px-2" ></i>
+                 Where exactly are you located?
               </button>
             </h2>
             <div
@@ -235,7 +316,7 @@
             </div>
           </div>
           <!-- Item 2 -->
-          <div class="accordion-item">
+          <div class="accordion-item ">
             <h2 class="accordion-header">
               <button
                 class="accordion-button collapsed"
@@ -243,6 +324,7 @@
                 data-bs-toggle="collapse"
                 data-bs-target="#question-two"
               >
+              <i class="fa-solid fa-circle-question px-2" ></i>
                 How much does it cost to attend?
               </button>
             </h2>
@@ -271,6 +353,7 @@
                 data-bs-toggle="collapse"
                 data-bs-target="#question-three"
               >
+              <i class="fa-solid fa-circle-question px-2" ></i>
                 What do I need to Know?
               </button>
             </h2>
@@ -299,6 +382,7 @@
                 data-bs-toggle="collapse"
                 data-bs-target="#question-four"
               >
+                <i class="fa-solid fa-circle-question px-2" ></i>
                 How Do I sign up?
               </button>
             </h2>
@@ -327,6 +411,7 @@
                 data-bs-toggle="collapse"
                 data-bs-target="#question-five"
               >
+              <i class="fa-solid fa-circle-question px-2" ></i>
                 Do you help me find a job?
               </button>
             </h2>
@@ -355,7 +440,7 @@
         <h2 class="text-center text-white">Our Instructors</h2>
         <p class="lead text-center text-white mb-5">
           Our instructors all have 5+ years working as a web developer in the
-          industry
+          industry  
         </p>
         <div class="row g-4">
           <div class="col-md-6 col-lg-3">
